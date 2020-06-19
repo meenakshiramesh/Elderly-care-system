@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Register"
+    android:background="@drawable/gradient3">
+
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30sp"
+        android:text="Update health conditions"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/regUsername"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:padding="16dp"
+        android:hint="Age"
+        android:background="@drawable/et_bg"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:hint="Blood sugar"
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/regConfPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:hint="Blood pressure"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/regAge"
+        android:layout_width="250sp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/et_bg"
+        android:hint="Height"
+        android:padding="16dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/updateb1"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Update"
+        android:background="@drawable/button2"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Register"
+    android:background="@drawable/gradient5">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="216dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/home" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30sp"
+        android:text="NEW REGISTRATION"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/regUsername"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:padding="14dp"
+        android:background="@drawable/et_bg"
+        android:hint="Enter patient Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="14dp"
+        android:background="@drawable/et_bg"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/regConfPassword"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="14dp"
+        android:background="@drawable/et_bg"
+        android:hint="Enter password again"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/regAge"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:padding="14dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="14dp"
+        android:background="@drawable/et_bg"
+        android:hint="Enter contact number"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="14dp"
+        android:background="@drawable/et_bg"
+        android:hint="Enter Address"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Register"
+        android:background="@drawable/button2"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? "
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

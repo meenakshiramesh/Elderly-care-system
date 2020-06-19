@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="530dp"
+        android:gravity="center"
+        android:text="Regular checkup appointment"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="530dp"
+        android:gravity="center"
+        android:text="Doctor Name: Dr.Gupta"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="530dp"
+        android:gravity="center"
+        android:text="Choose a time slot"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:text="5pm" />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:text="6pm" />
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:text="7pm" />
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp"
+        android:text="8pm" />
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="400dp"
+        android:text="9pm" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="530dp"
+        android:gravity="center"
+        android:text="Consultation fee:Rs.500"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/appointmentb1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button2"
+        android:text="PROCEED" />
+</RelativeLayout>
+
+
+
+
+
+

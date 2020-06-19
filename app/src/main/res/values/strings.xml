@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">elderly</string>
+    <string-array name="TODO">
+        <item>5PM</item>
+        <item>6PM</item>
+        <item>7PM</item>
+        <item>8PM</item>
+        <item>9PM</item>
+    </string-array>
+</resources>
